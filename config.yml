@@ -22,9 +22,9 @@ menu:
           weight: 3
 
 params:
-    description: "I am a PhD student at Trinity College Dublin. I research novel ways to represent hand-object interaction in manipulation sequences and images and better ways to do test-time adaptation."
+    description: "PhD student at Trinity College Dublin researching hand-object interaction in manipulation sequences and images."
     author: Théo Morales
-    googleAnalyticsID: ""
+    #googleAnalyticsID: ""
     DateFormat: "January 2006"
     defaultTheme: light
     hideFooter: true
@@ -49,8 +49,8 @@ params:
           title: Théo Morales
           subtitle: "I am a PhD student in the School of Computer Science and Statistics at Trinity College Dublin. My research is on novel Computer Vision & Deep Learning methods for accurate hand-object interaction tracking. I am mostly interested in Test-Time Adaptation (TTA), representation learning, meta-learning and hand-object interaction fields."
           imageUrl: "/me_pretty.png"
-          imageWidth: 160
-          imageHeight: 160
+          imageWidth: 200
+          imageHeight: 200
           imageTitle: Théo Morales
           buttons:
             - name: Papers
