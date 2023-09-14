@@ -1,5 +1,5 @@
 ---
 title: "Papers"
 aliases: /archive/
-description: "Preprints and articles on unemployment, economic slack, business cycles, monetary policy, fiscal policy, and science-related topics."
+description: "Preprints and conference articles on hand-object interaction and hand  pose prediction."
 ---

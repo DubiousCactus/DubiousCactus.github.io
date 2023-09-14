@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>benchmark on Théo Morales</title>
+    <link>https://www.theomorales.com/tags/benchmark/</link>
+    <description>Recent content in benchmark on Théo Morales</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 31 Oct 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://www.theomorales.com/tags/benchmark/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>A new benchmark for group distribution shifts in hand grasp regression for object manipulation. Can meta-learning raise the bar?</title>
+      <link>https://www.theomorales.com/2/</link>
+      <pubDate>Mon, 31 Oct 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.theomorales.com/2/</guid>
+      <description>Computer vision for hand-object pose has real-world potential. We introduce a benchmark for adapting to pose shifts with meta-learning, showing improvements over the baseline.</description>
+    </item>
+    
+  </channel>
+</rss>
