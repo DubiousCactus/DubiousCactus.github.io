@@ -61,7 +61,7 @@ params:
         - name: CV
           url: /cv.pdf
         - name: Email
-          url: mailto:moralest@tcd.ie
+          url: https://mailhide.io/e/XLb3qiRc
         - name: Google Scholar
           url: https://scholar.google.com/citations?user=S0hZCVEAAAAJ
         - name: Research Gate
