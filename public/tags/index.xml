@@ -6,7 +6,43 @@
     <description>Recent content in Tags on Théo Morales</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 10 Jun 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://www.theomorales.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 28 Nov 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://www.theomorales.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>3D Representation</title>
+      <link>https://www.theomorales.com/tags/3d-representation/</link>
+      <pubDate>Thu, 28 Nov 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.theomorales.com/tags/3d-representation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Diffusion Model</title>
+      <link>https://www.theomorales.com/tags/diffusion-model/</link>
+      <pubDate>Thu, 28 Nov 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.theomorales.com/tags/diffusion-model/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Grasping</title>
+      <link>https://www.theomorales.com/tags/grasping/</link>
+      <pubDate>Thu, 28 Nov 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.theomorales.com/tags/grasping/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Hand-Object Interaction</title>
+      <link>https://www.theomorales.com/tags/hand-object-interaction/</link>
+      <pubDate>Thu, 28 Nov 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.theomorales.com/tags/hand-object-interaction/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>Cameras</title>
       <link>https://www.theomorales.com/tags/cameras/</link>
@@ -17,7 +53,7 @@
     </item>
     
     <item>
-      <title>Pattern recognition</title>
+      <title>Pattern Recognition</title>
       <link>https://www.theomorales.com/tags/pattern-recognition/</link>
       <pubDate>Sat, 10 Jun 2023 00:00:00 +0000</pubDate>
       
@@ -44,7 +80,7 @@
     </item>
     
     <item>
-      <title>Pose estimation</title>
+      <title>Pose Estimation</title>
       <link>https://www.theomorales.com/tags/pose-estimation/</link>
       <pubDate>Sat, 10 Jun 2023 00:00:00 +0000</pubDate>
       
@@ -62,7 +98,7 @@
     </item>
     
     <item>
-      <title>benchmark</title>
+      <title>Benchmark</title>
       <link>https://www.theomorales.com/tags/benchmark/</link>
       <pubDate>Mon, 31 Oct 2022 00:00:00 +0000</pubDate>
       
@@ -71,7 +107,7 @@
     </item>
     
     <item>
-      <title>computer vision</title>
+      <title>Computer Vision</title>
       <link>https://www.theomorales.com/tags/computer-vision/</link>
       <pubDate>Mon, 31 Oct 2022 00:00:00 +0000</pubDate>
       
@@ -80,7 +116,7 @@
     </item>
     
     <item>
-      <title>dexycb</title>
+      <title>Dexycb</title>
       <link>https://www.theomorales.com/tags/dexycb/</link>
       <pubDate>Mon, 31 Oct 2022 00:00:00 +0000</pubDate>
       
@@ -89,16 +125,7 @@
     </item>
     
     <item>
-      <title>grasping</title>
-      <link>https://www.theomorales.com/tags/grasping/</link>
-      <pubDate>Mon, 31 Oct 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.theomorales.com/tags/grasping/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>group distribution shifts</title>
+      <title>Group Distribution Shifts</title>
       <link>https://www.theomorales.com/tags/group-distribution-shifts/</link>
       <pubDate>Mon, 31 Oct 2022 00:00:00 +0000</pubDate>
       
@@ -107,7 +134,7 @@
     </item>
     
     <item>
-      <title>hand-object pose</title>
+      <title>Hand-Object Pose</title>
       <link>https://www.theomorales.com/tags/hand-object-pose/</link>
       <pubDate>Mon, 31 Oct 2022 00:00:00 +0000</pubDate>
       
@@ -116,7 +143,7 @@
     </item>
     
     <item>
-      <title>meta-learning</title>
+      <title>Meta-Learning</title>
       <link>https://www.theomorales.com/tags/meta-learning/</link>
       <pubDate>Mon, 31 Oct 2022 00:00:00 +0000</pubDate>
       
@@ -125,7 +152,7 @@
     </item>
     
     <item>
-      <title>test-time adaptation</title>
+      <title>Test-Time Adaptation</title>
       <link>https://www.theomorales.com/tags/test-time-adaptation/</link>
       <pubDate>Mon, 31 Oct 2022 00:00:00 +0000</pubDate>
       
@@ -134,7 +161,7 @@
     </item>
     
     <item>
-      <title>convolutional neural networks</title>
+      <title>Convolutional Neural Networks</title>
       <link>https://www.theomorales.com/tags/convolutional-neural-networks/</link>
       <pubDate>Sun, 19 Jul 2020 00:00:00 +0000</pubDate>
       
@@ -143,7 +170,7 @@
     </item>
     
     <item>
-      <title>deep learning</title>
+      <title>Deep Learning</title>
       <link>https://www.theomorales.com/tags/deep-learning/</link>
       <pubDate>Sun, 19 Jul 2020 00:00:00 +0000</pubDate>
       
@@ -152,7 +179,7 @@
     </item>
     
     <item>
-      <title>drone racing</title>
+      <title>Drone Racing</title>
       <link>https://www.theomorales.com/tags/drone-racing/</link>
       <pubDate>Sun, 19 Jul 2020 00:00:00 +0000</pubDate>
       
@@ -161,7 +188,7 @@
     </item>
     
     <item>
-      <title>semi-synthetic images generation</title>
+      <title>Semi-Synthetic Images Generation</title>
       <link>https://www.theomorales.com/tags/semi-synthetic-images-generation/</link>
       <pubDate>Sun, 19 Jul 2020 00:00:00 +0000</pubDate>
       
@@ -170,7 +197,7 @@
     </item>
     
     <item>
-      <title>unmanned aerial vehicles</title>
+      <title>Unmanned Aerial Vehicles</title>
       <link>https://www.theomorales.com/tags/unmanned-aerial-vehicles/</link>
       <pubDate>Sun, 19 Jul 2020 00:00:00 +0000</pubDate>
       

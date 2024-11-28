@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Pose estimation on Théo Morales</title>
+    <title>Pose Estimation on Théo Morales</title>
     <link>https://www.theomorales.com/tags/pose-estimation/</link>
-    <description>Recent content in Pose estimation on Théo Morales</description>
+    <description>Recent content in Pose Estimation on Théo Morales</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Sat, 10 Jun 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://www.theomorales.com/tags/pose-estimation/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>ODIN: An OmniDirectional INdoor Dataset Capturing Activities of Daily Living From Multiple Synchronized Modalities</title>
-      <link>https://www.theomorales.com/3/</link>
+      <link>https://www.theomorales.com/ODIN/</link>
       <pubDate>Sat, 10 Jun 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://www.theomorales.com/3/</guid>
+      <guid>https://www.theomorales.com/ODIN/</guid>
       <description>We present ODIN, a large-scale multi-modal dataset for human behavior understanding using top-view omnidirectional cameras.</description>
     </item>
     

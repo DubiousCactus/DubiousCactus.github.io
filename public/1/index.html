@@ -1,23 +1,24 @@
 <!DOCTYPE html>
 <html lang="en" dir="auto">
 
-<head><meta charset="utf-8">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=39071&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<meta name="robots" content="index, follow">
+<meta name="robots" content="noindex, nofollow">
 <title>Image generation for efficient neural network training in autonomous drone racing | Théo Morales</title>
 <meta name="keywords" content="drone racing, unmanned aerial vehicles, deep learning, convolutional neural networks, semi-synthetic images generation">
 <meta name="description" content="This work proposes a semi-synthetic dataset combining real backgrounds and 3D renders for training convolutional neural networks for drone racing gate detection.">
-<meta name="author" content="Théo Morales,&thinsp;Andriy Sarabakha,&thinsp;Erdal Kayacan">
-<link rel="canonical" href="https://www.theomorales.com/1/">
-<link crossorigin="anonymous" href="/assets/css/stylesheet.acf4af3ce07d677cf06f765ed86676ae018ad15dcfcc8945d1f1c9e2892ba6a7.css" integrity="sha256-rPSvPOB9Z3zwb3Ze2GZ2rgGK0V3PzIlF0fHJ4okrpqc=" rel="preload stylesheet" as="style">
-<link rel="icon" href="https://www.theomorales.com/favicon.ico">
-<link rel="icon" type="image/png" sizes="16x16" href="https://www.theomorales.com/favicon-16x16.png">
-<link rel="icon" type="image/png" sizes="32x32" href="https://www.theomorales.com/favicon-32x32.png">
-<link rel="apple-touch-icon" href="https://www.theomorales.com/apple-touch-icon.png">
+<meta name="author" content="Théo Morales,&amp;thinsp;Andriy Sarabakha,&amp;thinsp;Erdal Kayacan">
+<link rel="canonical" href="http://localhost:39071/1/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.f862e423d584dcad80ec00d158460a9f311e7d075e2f9c146af7e938d6cf0d7b.css" integrity="sha256-&#43;GLkI9WE3K2A7ADRWEYKnzEefQdeL5wUavfpONbPDXs=" rel="preload stylesheet" as="style">
+<link rel="icon" href="http://localhost:39071/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:39071/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:39071/favicon-32x32.png">
+<link rel="apple-touch-icon" href="http://localhost:39071/apple-touch-icon.png">
 
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="en" href="http://localhost:39071/1/">
 <noscript>
     <style>
         #theme-toggle,
@@ -29,13 +30,13 @@
 </noscript><meta property="og:title" content="Image generation for efficient neural network training in autonomous drone racing" />
 <meta property="og:description" content="This work proposes a semi-synthetic dataset combining real backgrounds and 3D renders for training convolutional neural networks for drone racing gate detection." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://www.theomorales.com/1/" />
-<meta property="og:image" content="https://www.theomorales.com/1.png" /><meta property="article:section" content="papers" />
+<meta property="og:url" content="http://localhost:39071/1/" />
+<meta property="og:image" content="http://localhost:39071/1.png" /><meta property="article:section" content="publications" />
 <meta property="article:published_time" content="2020-07-19T00:00:00+00:00" />
 <meta property="article:modified_time" content="2020-07-19T00:00:00+00:00" />
 
 <meta name="twitter:card" content="summary_large_image" />
-<meta name="twitter:image" content="https://www.theomorales.com/1.png" />
+<meta name="twitter:image" content="http://localhost:39071/1.png" />
 <meta name="twitter:title" content="Image generation for efficient neural network training in autonomous drone racing"/>
 <meta name="twitter:description" content="This work proposes a semi-synthetic dataset combining real backgrounds and 3D renders for training convolutional neural networks for drone racing gate detection."/>
 
@@ -48,14 +49,14 @@
     {
       "@type": "ListItem",
       "position":  1 ,
-      "name": "Papers",
-      "item": "https://www.theomorales.com/papers/"
+      "name": "Publications",
+      "item": "http://localhost:39071/publications/"
     }, 
     {
       "@type": "ListItem",
       "position":  2 ,
       "name": "Image generation for efficient neural network training in autonomous drone racing",
-      "item": "https://www.theomorales.com/1/"
+      "item": "http://localhost:39071/1/"
     }
   ]
 }
@@ -70,10 +71,10 @@
   "keywords": [
     "drone racing", "unmanned aerial vehicles", "deep learning", "convolutional neural networks", "semi-synthetic images generation"
   ],
-  "articleBody": " Download Paper Code Short video Abstract Drone racing is a recreational sport in which the goal is to pass through a sequence of gates in a minimum amount of time, while avoiding collisions. In autonomous drone racing, one must accomplish this task by flying fully autonomously in an unknown environment by relying only on computer vision methods for detecting the target gates. Due to the challenges such as background objects and varying lighting conditions, traditional object detection algorithms based on colour or geometry tend to fail. Convolutional neural networks offer impressive advances in computer vision, but require an immense amount of data to learn. Collecting this data is a tedious process because the drone has to be flown manually, and the data collected can suffer from sensor failures. In this work, a semi-synthetic dataset generation method is proposed, using a combination of real background images and randomised 3D renders of the gates, to provide a limitless amount of training samples that do not suffer from those drawbacks. Using the detection results, a line-of-sight guidance algorithm is used to cross the gates. In several experimental real-time tests, the proposed framework successfully demonstrates fast and reliable detection and navigation.\nFigure 5: Semi-synthetic image generated from annotated background picture. A 3D render of a matched virtual scene is created with OpenGL, where the camera pose matches the one of the real camera used to take the background image. By using random picks from a dataset of base images annotated with their camera pose and by randomly positioning the desired meshes in the scene, an infinite amount of hybrid images can be produced. Citation Morales, Théo et al. “Image Generation for Efficient Neural Network Training in Autonomous Drone Racing.” 2020 International Joint Conference on Neural Networks (IJCNN) (2020): 1-8.\nRelated material Presentation video ",
-  "wordCount" : "299",
+  "articleBody": " Download Paper Code Short video Abstract Drone racing is a recreational sport in which the goal is to pass through a sequence of gates in a minimum amount of time, while avoiding collisions. In autonomous drone racing, one must accomplish this task by flying fully autonomously in an unknown environment by relying only on computer vision methods for detecting the target gates. Due to the challenges such as background objects and varying lighting conditions, traditional object detection algorithms based on colour or geometry tend to fail. Convolutional neural networks offer impressive advances in computer vision, but require an immense amount of data to learn. Collecting this data is a tedious process because the drone has to be flown manually, and the data collected can suffer from sensor failures. In this work, a semi-synthetic dataset generation method is proposed, using a combination of real background images and randomised 3D renders of the gates, to provide a limitless amount of training samples that do not suffer from those drawbacks. Using the detection results, a line-of-sight guidance algorithm is used to cross the gates. In several experimental real-time tests, the proposed framework successfully demonstrates fast and reliable detection and navigation.\nFigure 5: Semi-synthetic image generated from annotated background picture. A 3D render of a matched virtual scene is created with OpenGL, where the camera pose matches the one of the real camera used to take the background image. By using random picks from a dataset of base images annotated with their camera pose and by randomly positioning the desired meshes in the scene, an infinite amount of hybrid images can be produced. Citation Morales, Théo et al. “Image Generation for Efficient Neural Network Training in Autonomous Drone Racing.” 2020 International Joint Conference on Neural Networks (IJCNN) (2020): 1-8.\n@article{Morales2020ImageGF, title={Image Generation for Efficient Neural Network Training in Autonomous Drone Racing}, author={Th{\\'e}o Morales and Andriy Sarabakha and Erdal Kayacan}, journal={2020 International Joint Conference on Neural Networks (IJCNN)}, year={2020}, pages={1-8}, url={https://api.semanticscholar.org/CorpusID:221005922} } Related material Presentation video ",
+  "wordCount" : "331",
   "inLanguage": "en",
-  "image":"https://www.theomorales.com/1.png","datePublished": "2020-07-19T00:00:00Z",
+  "image":"http://localhost:39071/1.png","datePublished": "2020-07-19T00:00:00Z",
   "dateModified": "2020-07-19T00:00:00Z",
   "author":[{
     "@type": "Person",
@@ -87,14 +88,14 @@
   }],
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "https://www.theomorales.com/1/"
+    "@id": "http://localhost:39071/1/"
   },
   "publisher": {
     "@type": "Organization",
     "name": "Théo Morales",
     "logo": {
       "@type": "ImageObject",
-      "url": "https://www.theomorales.com/favicon.ico"
+      "url": "http://localhost:39071/favicon.ico"
     }
   }
 }
@@ -136,22 +137,24 @@
 <header class="header">
     <nav class="nav">
         <div class="logo">
-            <a href="https://www.theomorales.com/" accesskey="h" title="Théo Morales">
+            <a href="http://localhost:39071/" accesskey="h" title="Théo Morales">
              
-                <img src="https://www.theomorales.com/favicon.png" alt="" aria-label="logo"
+                <img src="http://localhost:39071/favicon.png" alt="" aria-label="logo"
                     height="18"
                     width="18">Théo Morales</a>
             <div class="logo-switches">
+                <ul class="lang-switch"><li>|</li>
+                </ul>
             </div>
         </div>
         <ul id="menu">
             <li>
-                <a href="https://www.theomorales.com/papers/" title="Papers">
-                    <span>Papers</span>
+                <a href="http://localhost:39071/publications/" title="Publications">
+                    <span>Publications</span>
                 </a>
             </li>
             <li>
-                <a href="https://www.theomorales.com/tags/" title="Tags">
+                <a href="http://localhost:39071/tags/" title="Tags">
                     <span>Tags</span>
                 </a>
             </li>
@@ -180,7 +183,7 @@
     </h1>
 
     
-    <div class="post-meta"><span title='2020-07-19 00:00:00 +0000 UTC'>July 2020</span>&nbsp;&middot;&nbsp;Théo Morales,&thinsp;Andriy Sarabakha,&thinsp;Erdal Kayacan&nbsp;&middot;&nbsp;<a href="https://doi.org/10.1109/IJCNN48605.2020.9206943" rel="noopener noreferrer" target="_blank">IEEE</a>
+    <div class="post-meta">&lt;span title=&#39;2020-07-19 00:00:00 &#43;0000 UTC&#39;&gt;July 2020&lt;/span&gt;&amp;nbsp;&amp;middot;&amp;nbsp;Théo Morales,&amp;amp;thinsp;Andriy Sarabakha,&amp;amp;thinsp;Erdal Kayacan&nbsp;&middot;&nbsp;<a href="https://doi.org/10.1109/IJCNN48605.2020.9206943" rel="noopener noreferrer" target="_blank">IEEE</a>
 
 </div>
   </header> 
@@ -204,7 +207,15 @@
 </h2>
 <h5 id="citation">Citation</h5>
 <p>Morales, Théo et al. “Image Generation for Efficient Neural Network Training in Autonomous Drone Racing.” <em>2020 International Joint Conference on Neural Networks (IJCNN) (2020)</em>: 1-8.</p>
-<hr>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-BibTeX" data-lang="BibTeX"><span style="display:flex;"><span><span style="color:#0a0;text-decoration:underline">@article</span>{Morales2020ImageGF,
+</span></span><span style="display:flex;"><span>  <span style="color:#1e90ff">title</span>=<span style="color:#a50">{Image Generation for Efficient Neural Network Training in Autonomous Drone Racing}</span>,
+</span></span><span style="display:flex;"><span>  <span style="color:#1e90ff">author</span>=<span style="color:#a50">{Th{\&#39;e}o Morales and Andriy Sarabakha and Erdal Kayacan}</span>,
+</span></span><span style="display:flex;"><span>  <span style="color:#1e90ff">journal</span>=<span style="color:#a50">{2020 International Joint Conference on Neural Networks (IJCNN)}</span>,
+</span></span><span style="display:flex;"><span>  <span style="color:#1e90ff">year</span>=<span style="color:#a50">{2020}</span>,
+</span></span><span style="display:flex;"><span>  <span style="color:#1e90ff">pages</span>=<span style="color:#a50">{1-8}</span>,
+</span></span><span style="display:flex;"><span>  <span style="color:#1e90ff">url</span>=<span style="color:#a50">{https://api.semanticscholar.org/CorpusID:221005922}</span>
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><hr>
 <h5 id="related-material">Related material</h5>
 <ul>
 <li><a href="https://www.youtube.com/watch?v=YrR-pR9nDT0" target="_blank">Presentation video</a>
@@ -215,11 +226,11 @@
 
   <footer class="post-footer">
     <ul class="post-tags">
-      <li><a href="https://www.theomorales.com/tags/drone-racing/">drone racing</a></li>
-      <li><a href="https://www.theomorales.com/tags/unmanned-aerial-vehicles/">unmanned aerial vehicles</a></li>
-      <li><a href="https://www.theomorales.com/tags/deep-learning/">deep learning</a></li>
-      <li><a href="https://www.theomorales.com/tags/convolutional-neural-networks/">convolutional neural networks</a></li>
-      <li><a href="https://www.theomorales.com/tags/semi-synthetic-images-generation/">semi-synthetic images generation</a></li>
+      <li><a href="http://localhost:39071/tags/drone-racing/">Drone Racing</a></li>
+      <li><a href="http://localhost:39071/tags/unmanned-aerial-vehicles/">Unmanned Aerial Vehicles</a></li>
+      <li><a href="http://localhost:39071/tags/deep-learning/">Deep Learning</a></li>
+      <li><a href="http://localhost:39071/tags/convolutional-neural-networks/">Convolutional Neural Networks</a></li>
+      <li><a href="http://localhost:39071/tags/semi-synthetic-images-generation/">Semi-Synthetic Images Generation</a></li>
     </ul>
   </footer>
 </article>

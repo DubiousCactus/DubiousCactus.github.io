@@ -1,6 +1,6 @@
 baseURL: "https://www.theomorales.com/" 
 title: Théo Morales
-paginate: 20
+pagination.pagerSize: 20
 theme: PaperMod
 
 enableInlineShortcodes: true
@@ -11,8 +11,8 @@ taxonomies:
 
 menu:
     main:
-        - name: Papers
-          url: /papers/
+        - name: Publications
+          url: /publications/
           weight: 1
         - name: Tags
           url: /tags/
@@ -53,8 +53,8 @@ params:
           imageHeight: 200
           imageTitle: Théo Morales
           buttons:
-            - name: Papers
-              url: /papers/
+            - name: Publications
+              url: /publications/
             - name: Blog
               url: https://notes.theomorales.com
     socialIcons:
