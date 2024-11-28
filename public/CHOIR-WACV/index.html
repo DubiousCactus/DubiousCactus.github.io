@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>A Versatile and Differentiable Hand-Object Interaction Representation | Théo Morales</title>
+<meta name="keywords" content="hand-object interaction, 3D representation, diffusion model, grasping">
+<meta name="description" content="CHOIR is a differentiable representation for hand-object interaction. We demonstrate the representation’s usefulness on various tasks, including denoising and synthesis of hand-object interaction.">
+<meta name="author" content="Théo Morales,&amp;thinsp;Omid Taheri,&amp;thinsp;Gerard Lacey">
+<link rel="canonical" href="https://www.theomorales.com/CHOIR-WACV/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.f862e423d584dcad80ec00d158460a9f311e7d075e2f9c146af7e938d6cf0d7b.css" integrity="sha256-&#43;GLkI9WE3K2A7ADRWEYKnzEefQdeL5wUavfpONbPDXs=" rel="preload stylesheet" as="style">
+<link rel="icon" href="https://www.theomorales.com/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://www.theomorales.com/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://www.theomorales.com/favicon-32x32.png">
+<link rel="apple-touch-icon" href="https://www.theomorales.com/apple-touch-icon.png">
+
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="en" href="https://www.theomorales.com/CHOIR-WACV/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+</noscript><meta property="og:title" content="A Versatile and Differentiable Hand-Object Interaction Representation" />
+<meta property="og:description" content="CHOIR is a differentiable representation for hand-object interaction. We demonstrate the representation’s usefulness on various tasks, including denoising and synthesis of hand-object interaction." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://www.theomorales.com/CHOIR-WACV/" />
+<meta property="og:image" content="https://www.theomorales.com/4_0.png" /><meta property="article:section" content="publications" />
+<meta property="article:published_time" content="2024-11-28T00:00:00+00:00" />
+<meta property="article:modified_time" content="2024-11-28T00:00:00+00:00" />
+
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:image" content="https://www.theomorales.com/4_0.png" />
+<meta name="twitter:title" content="A Versatile and Differentiable Hand-Object Interaction Representation"/>
+<meta name="twitter:description" content="CHOIR is a differentiable representation for hand-object interaction. We demonstrate the representation’s usefulness on various tasks, including denoising and synthesis of hand-object interaction."/>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Publications",
+      "item": "https://www.theomorales.com/publications/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "A Versatile and Differentiable Hand-Object Interaction Representation",
+      "item": "https://www.theomorales.com/CHOIR-WACV/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "A Versatile and Differentiable Hand-Object Interaction Representation",
+  "name": "A Versatile and Differentiable Hand-Object Interaction Representation",
+  "description": "CHOIR is a differentiable representation for hand-object interaction. We demonstrate the representation’s usefulness on various tasks, including denoising and synthesis of hand-object interaction.",
+  "keywords": [
+    "hand-object interaction", "3D representation", "diffusion model", "grasping"
+  ],
+  "articleBody": " Download Paper Code Abstract Synthesizing accurate hands-object interactions (HOI) is critical for applications in Computer Vision, Augmented Reality (AR), and Mixed Reality (MR). Despite recent advances, the accuracy of reconstructed or generated HOI leaves room for refinement. Some techniques have improved the accuracy of dense correspondences by shifting focus from generating explicit contacts to using rich HOI fields. Still, they lack full differentiability or continuity and are tailored to specific tasks. In contrast, we present a Coarse Hand-Object Interaction Representation (CHOIR), a novel, versatile and fully differentiable field for HOI modelling. CHOIR leverages discrete unsigned distances for continuous shape and pose encoding, alongside multivariate Gaussian distributions to represent dense contact maps with few parameters. To demonstrate the versatility of CHOIR we design JointDiffusion, a diffusion model to learn a grasp distribution conditioned on noisy hand-object interactions or only object geometries, for both refinement and synthesis applications. We demonstrate JointDiffusion’s improvements over the SOTA in both applications: it increases the contact F1 score by 5% for refinement and decreases the sim. displacement by 46% for synthesis. Our experiments show that JointDiffusion with CHOIR yield superior contact accuracy and physical realism compared to SOTA methods designed for specific tasks. Our models and code will be publicly available to the research community.\nFigure 3: Architecture of JointDiffusion. The 3D U-Net predicts the noise sample epsilon_d for the hand distance field d_H. The contact prediction branch predicts the noise sample epsilon_c for the contact Gaussian parameters c_H from the features of the U-Net’s bottleneck. This joint learning encourages the U-Net to extract features relevant to both tasks, enhancing the accuracy of the learned CHOIR distribution. Citation Morales, Théo et al. “A Versatile and Differentiable Hand-Object Interaction Representation” 2024 IEEE/CVF Winter Conference on Applications of Computer Vision (WACV) (2025): 1-8.\n@article{DBLP:journals/corr/abs-2409-16855, publtype={informal}, author={Théo Morales and Omid Taheri and Gerard Lacey}, title={A Versatile and Differentiable Hand-Object Interaction Representation}, year={2024}, cdate={1704067200000}, journal={CoRR}, volume={abs/2409.16855}, url={https://doi.org/10.48550/arXiv.2409.16855} } ",
+  "wordCount" : "318",
+  "inLanguage": "en",
+  "image":"https://www.theomorales.com/4_0.png","datePublished": "2024-11-28T00:00:00Z",
+  "dateModified": "2024-11-28T00:00:00Z",
+  "author":[{
+    "@type": "Person",
+    "name": "Théo Morales"
+  }, {
+    "@type": "Person",
+    "name": "Omid Taheri"
+  }, {
+    "@type": "Person",
+    "name": "Gerard Lacey"
+  }],
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://www.theomorales.com/CHOIR-WACV/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Théo Morales",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://www.theomorales.com/favicon.ico"
+    }
+  }
+}
+</script>
+
+
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.13.13/dist/katex.min.css" integrity="sha384-RZU/ijkSsFbcmivfdRBQDtwuwVqK7GMOw6IMvKyeWL2K5UAlyp6WonmB8m7Jd0Hn" crossorigin="anonymous">
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.13.13/dist/katex.min.js" integrity="sha384-pK1WpvzWVBQiP0/GjnvRxV4mOb0oxFuyRxJlk6vVw146n3egcN5C925NCP7a7BY8" crossorigin="anonymous"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.13.13/dist/contrib/auto-render.min.js" integrity="sha384-vZTG03m+2yp6N6BNi5iM4rW4oIwk5DfcNdFfxkk9ZWpDriOkXX8voJBFrAO7MpVl" crossorigin="anonymous"></script>
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        renderMathInElement(document.body, {
+          
+          
+          delimiters: [
+            {left: '$$', right: '$$', display: true},
+            {left: '$', right: '$', display: false},
+            {left: "\\begin{equation}", right: "\\end{equation}", display: true},
+            {left: "\\begin{equation*}", right: "\\end{equation*}", display: true},
+            {left: "\\begin{align}", right: "\\end{align}", display: true},
+            {left: "\\begin{align*}", right: "\\end{align*}", display: true},
+            {left: "\\begin{alignat}", right: "\\end{alignat}", display: true},
+            {left: "\\begin{gather}", right: "\\end{gather}", display: true},
+            {left: "\\begin{CD}", right: "\\end{CD}", display: true},
+          ],
+          
+          throwOnError : false
+        });
+    });
+</script>
+ 
+
+
+</head>
+
+<body class="" id="top">
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="https://www.theomorales.com/" accesskey="h" title="Théo Morales">
+             
+                <img src="https://www.theomorales.com/favicon.png" alt="" aria-label="logo"
+                    height="18"
+                    width="18">Théo Morales</a>
+            <div class="logo-switches">
+                <ul class="lang-switch"><li>|</li>
+                </ul>
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="https://www.theomorales.com/publications/" title="Publications">
+                    <span>Publications</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.theomorales.com/tags/" title="Tags">
+                    <span>Tags</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://notes.theomorales.com" title="Blog">
+                    <span>Blog</span>&nbsp;
+                    <svg fill="none" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round"
+                        stroke-linejoin="round" stroke-width="2.5" viewBox="0 0 24 24" height="12" width="12">
+                        <path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"></path>
+                        <path d="M15 3h6v6"></path>
+                        <path d="M10 14L21 3"></path>
+                    </svg>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+
+    <main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    
+    <h1 class="post-title">
+      A Versatile and Differentiable Hand-Object Interaction Representation
+    </h1>
+
+    
+    <div class="post-meta">&lt;span title=&#39;2024-11-28 00:00:00 &#43;0000 UTC&#39;&gt;November 2024&lt;/span&gt;&amp;nbsp;&amp;middot;&amp;nbsp;Théo Morales,&amp;amp;thinsp;Omid Taheri,&amp;amp;thinsp;Gerard Lacey&nbsp;&middot;&nbsp;<a href="https://doi.org/10.1109/CVPRW59228.2023.00690" rel="noopener noreferrer" target="_blank">2023 IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops (CVPRW)</a>
+
+</div>
+  </header> 
+  <div class="post-content"><hr>
+<h5 id="download">Download</h5>
+<ul>
+<li><a href="/4.pdf">Paper</a>
+</li>
+<li><a href="https://github.com/DubiousCactus/CHOIR" target="_blank">Code</a>
+</li>
+</ul>
+<!--+ [Poster](/2p.pdf)-->
+<hr>
+<h5 id="abstract">Abstract</h5>
+<p>Synthesizing accurate hands-object interactions (HOI) is critical for applications in Computer Vision, Augmented Reality (AR), and Mixed Reality (MR). Despite recent advances, the accuracy of reconstructed or generated HOI leaves room for refinement. Some techniques have improved the accuracy of dense correspondences by shifting focus from generating explicit contacts to using rich HOI fields. Still, they lack full differentiability or continuity and are tailored to specific tasks. In contrast, we present a Coarse Hand-Object Interaction Representation (CHOIR), a novel, versatile and fully differentiable field for HOI modelling. CHOIR leverages discrete unsigned distances for continuous shape and pose encoding, alongside multivariate Gaussian distributions to represent dense contact maps with few parameters. To demonstrate the versatility of CHOIR we design JointDiffusion, a diffusion model to learn a grasp distribution conditioned on noisy hand-object interactions or only object geometries, for both refinement and synthesis applications. We demonstrate JointDiffusion&rsquo;s improvements over the SOTA in both applications: it increases the contact F1 score by 5% for refinement and decreases the sim. displacement by 46% for synthesis. Our experiments show that JointDiffusion with CHOIR yield superior contact accuracy and physical realism compared to SOTA methods designed for specific tasks. Our models and code will be publicly available to the research community.</p>
+<hr>
+<h5 id="figure-3-architecture-of-jointdiffusion-the-3d-u-net-predicts-the-noise-sample-epsilon_d-for-the-hand-distance-field-d_h-the-contact-prediction-branch-predicts-the-noise-sample-epsilon_c-for-the-contact-gaussian-parameters-c_h-from-the-features-of-the-u-nets-bottleneck-this-joint-learning-encourages-the-u-net-to-extract-features-relevant-to-both-tasks-enhancing-the-accuracy-of-the-learned-choir-distribution">Figure 3: Architecture of JointDiffusion. The 3D U-Net predicts the noise sample epsilon_d for the hand distance field d_H. The contact prediction branch predicts the noise sample epsilon_c for the contact Gaussian parameters c_H from the features of the U-Net&rsquo;s bottleneck. This joint learning encourages the U-Net to extract features relevant to both tasks, enhancing the accuracy of the learned CHOIR distribution.</h5>
+<p><img loading="lazy" src="/4.png" alt=""  />
+</p>
+<h5 id="citation">Citation</h5>
+<p>Morales, Théo et al. “A Versatile and Differentiable Hand-Object Interaction Representation” <em>2024 IEEE/CVF Winter Conference on Applications of Computer Vision (WACV) (2025)</em>: 1-8.</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-BibTeX" data-lang="BibTeX"><span style="display:flex;"><span><span style="color:#0a0;text-decoration:underline">@article</span>{DBLP:journals/corr/abs-2409-16855,
+</span></span><span style="display:flex;"><span>  <span style="color:#1e90ff">publtype</span>=<span style="color:#a50">{informal}</span>,
+</span></span><span style="display:flex;"><span>  <span style="color:#1e90ff">author</span>=<span style="color:#a50">{Théo Morales and Omid Taheri and Gerard Lacey}</span>,
+</span></span><span style="display:flex;"><span>  <span style="color:#1e90ff">title</span>=<span style="color:#a50">{A Versatile and Differentiable Hand-Object Interaction Representation}</span>,
+</span></span><span style="display:flex;"><span>  <span style="color:#1e90ff">year</span>=<span style="color:#a50">{2024}</span>,
+</span></span><span style="display:flex;"><span>  <span style="color:#1e90ff">cdate</span>=<span style="color:#a50">{1704067200000}</span>,
+</span></span><span style="display:flex;"><span>  <span style="color:#1e90ff">journal</span>=<span style="color:#a50">{CoRR}</span>,
+</span></span><span style="display:flex;"><span>  <span style="color:#1e90ff">volume</span>=<span style="color:#a50">{abs/2409.16855}</span>,
+</span></span><span style="display:flex;"><span>  <span style="color:#1e90ff">url</span>=<span style="color:#a50">{https://doi.org/10.48550/arXiv.2409.16855}</span>
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><hr>
+<!-- ##### Related material -->
+<!--+ [Presentation video](https://www.youtube.com/watch?v=YrR-pR9nDT0)-->
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="https://www.theomorales.com/tags/hand-object-interaction/">Hand-Object Interaction</a></li>
+      <li><a href="https://www.theomorales.com/tags/3d-representation/">3D Representation</a></li>
+      <li><a href="https://www.theomorales.com/tags/diffusion-model/">Diffusion Model</a></li>
+      <li><a href="https://www.theomorales.com/tags/grasping/">Grasping</a></li>
+    </ul>
+  </footer>
+</article>
+    </main>
+    
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    document.querySelectorAll('pre > code').forEach((codeblock) => {
+        const container = codeblock.parentNode.parentNode;
+
+        const copybutton = document.createElement('button');
+        copybutton.classList.add('copy-code');
+        copybutton.innerHTML = 'copy';
+
+        function copyingDone() {
+            copybutton.innerHTML = 'copied!';
+            setTimeout(() => {
+                copybutton.innerHTML = 'copy';
+            }, 2000);
+        }
+
+        copybutton.addEventListener('click', (cb) => {
+            if ('clipboard' in navigator) {
+                navigator.clipboard.writeText(codeblock.textContent);
+                copyingDone();
+                return;
+            }
+
+            const range = document.createRange();
+            range.selectNodeContents(codeblock);
+            const selection = window.getSelection();
+            selection.removeAllRanges();
+            selection.addRange(range);
+            try {
+                document.execCommand('copy');
+                copyingDone();
+            } catch (e) { };
+            selection.removeRange(range);
+        });
+
+        if (container.classList.contains("highlight")) {
+            container.appendChild(copybutton);
+        } else if (container.parentNode.firstChild == container) {
+            
+        } else if (codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.nodeName == "TABLE") {
+            
+            codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.appendChild(copybutton);
+        } else {
+            
+            codeblock.parentNode.appendChild(copybutton);
+        }
+    });
+</script>
+</body>
+</html>

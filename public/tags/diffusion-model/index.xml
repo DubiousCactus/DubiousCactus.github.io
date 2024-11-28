@@ -9,10 +9,10 @@
     <lastBuildDate>Thu, 28 Nov 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://www.theomorales.com/tags/diffusion-model/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>A Versatile and Differentiable Hand-Object Interaction Representation</title>
-      <link>https://www.theomorales.com/CHOIR/</link>
+      <link>https://www.theomorales.com/CHOIR-WACV/</link>
       <pubDate>Thu, 28 Nov 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://www.theomorales.com/CHOIR/</guid>
+      <guid>https://www.theomorales.com/CHOIR-WACV/</guid>
       <description>CHOIR is a differentiable representation for hand-object interaction. We demonstrate the representation’s usefulness on various tasks, including denoising and synthesis of hand-object interaction.</description>
     </item>
     
