@@ -24,7 +24,7 @@ menu:
 params:
     description: "PhD student at Trinity College Dublin researching hand-object interaction in manipulation sequences and images."
     author: Théo Morales
-    #googleAnalyticsID: ""
+    googleAnalyticsID: "G-XFJHE9GQRC"
     DateFormat: "January 2006"
     defaultTheme: light
     hideFooter: true
